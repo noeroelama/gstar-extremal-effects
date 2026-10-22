@@ -1,0 +1,173 @@
+{
+  "data": {
+    "N": 38,
+    "T": 484,
+    "first": "1985-01",
+    "last": "2025-04"
+  },
+  "structure_geo": {
+    "strongly_connected": true,
+    "arcs_west_to_east": [
+      [
+        "North Sulawesi",
+        "North Maluku"
+      ]
+    ],
+    "arcs_east_to_west": [
+      [
+        "North Maluku",
+        "Gorontalo"
+      ],
+      [
+        "North Maluku",
+        "North Sulawesi"
+      ]
+    ],
+    "longest_cycle_inside_east": 8,
+    "west_plus_north_maluku_hamiltonian": false,
+    "west_hamiltonian": true,
+    "circumference": 30,
+    "cycle_through_30_west": [
+      "Aceh",
+      "Riau",
+      "Riau Islands",
+      "South Sumatra",
+      "Lampung",
+      "Jakarta",
+      "Banten",
+      "West Java",
+      "Yogyakarta",
+      "Central Java",
+      "East Java",
+      "Bali",
+      "West Nusa Tenggara",
+      "East Nusa Tenggara",
+      "South Sulawesi",
+      "Southeast Sulawesi",
+      "Gorontalo",
+      "North Sulawesi",
+      "Central Sulawesi",
+      "West Sulawesi",
+      "South Kalimantan",
+      "Central Kalimantan",
+      "East Kalimantan",
+      "North Kalimantan",
+      "West Kalimantan",
+      "Bangka Belitung Islands",
+      "Jambi",
+      "Bengkulu",
+      "West Sumatra",
+      "North Sumatra"
+    ],
+    "disjoint_2_cycles": 18,
+    "all_simple_cycles": {
+      "count": 576397,
+      "longest": 30
+    }
+  },
+  "structure_cor": {
+    "symmetric": true,
+    "mean_out_degree": 36.89473684210526,
+    "hamiltonian": true,
+    "disjoint_2_cycles": 19
+  },
+  "homogeneous": {
+    "geo": {
+      "a": 0.13785110904233455,
+      "b": 0.2330870231870471,
+      "rho": 0.2703558812540333,
+      "d": 1.1598924622975633,
+      "tau_dir": 1.1799459261573868,
+      "tau_tot": 1.5896687611092664,
+      "tau_ind": 0.40972283495187956,
+      "univ_min_tau_dir": 1.1598924622975633,
+      "univ_max_tau_dir": 1.2513570288193754,
+      "univ_tau_ind": [
+        0.338311732289891,
+        0.4297762988117031
+      ],
+      "one_plus_rho": 1.2703558812540332,
+      "pattern_min_tau_dir": 1.1598924622975633,
+      "pattern_max_tau_dir": [
+        1.2465431042655957,
+        1.2465431042655957
+      ],
+      "pattern_max_detail": {
+        "n_cycles": 1249,
+        "value": 40.83881868519334,
+        "bound": 40.83881868519334,
+        "tail_per_vertex": 4.1225477822703425e-08,
+        "chosen_lengths": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "pattern_tau_ind": [
+        0.3431256568436707,
+        0.4297762988117031
+      ],
+      "rho_power_30": 9.07976579559041e-18
+    },
+    "cor": {
+      "a": 0.11307125912565232,
+      "b": 0.411808762432931,
+      "rho": 0.4643087358145185,
+      "d": 1.1274862950254436,
+      "tau_dir": 1.1409014294970035,
+      "tau_tot": 2.1047315317709843,
+      "tau_ind": 0.9638301022739808,
+      "univ_min_tau_dir": 1.1274862950256894,
+      "univ_max_tau_dir": 1.4373550333292469,
+      "univ_tau_ind": [
+        0.6673764984417374,
+        0.9772452367452948
+      ],
+      "one_plus_rho": 1.4643087358145186,
+      "pattern_tau_ind": [
+        0.6673764984417374,
+        0.9772452367452948
+      ]
+    }
+  },
+  "ratios": {
+    "tau_ind_cor_over_geo": 2.352395375735353,
+    "geo_universal": 1.2703558812540334,
+    "geo_pattern": 1.2525332636594726,
+    "cor_universal": 1.4643087358141504
+  },
+  "heterogeneous_geo": {
+    "max_abs_a_plus_abs_b": 0.673994245469486,
+    "r_range": [
+      -0.17545801500090644,
+      0.5748010192078931
+    ],
+    "n_negative_r": 2,
+    "tau_dir": 1.1837516663420125,
+    "mean_d": 1.1616929269788543,
+    "n_cycles": 17410,
+    "tail_max": 0.00015943893043152298,
+    "min_tau_dir": 1.153744854939221,
+    "min_tau_dir_bound": 1.15366211405505,
+    "max_tau_dir": 1.2861684819315984,
+    "max_tau_dir_bound": 1.2861814893535073
+  },
+  "heterogeneous_cor": {
+    "max_abs_a_plus_abs_b": 0.7657101983118754
+  }
+}

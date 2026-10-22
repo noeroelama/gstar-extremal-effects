@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "gstar-extremal-effects: code and data for 'Extremal direct and spillover effects for stochastic weight matrices with a prescribed pattern'"
+authors:
+  - family-names: Nurwahid
+    given-names: Arif
+    affiliation: "Graduate School of Science and Engineering, Ehime University"
+version: 1.0.0
+date-released: 2026-10-22
+license: MIT
+repository-code: "https://github.com/noeroelama/gstar-extremal-effects"

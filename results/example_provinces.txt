@@ -1,0 +1,20 @@
+Data: N = 38, T = 484 months (1985-01 to 2025-04)
+D_geo: strongly connected = True, circumference = 30, west+North Maluku Hamiltonian = False, disjoint 2-cycles = 18
+       arcs west->east [('North Sulawesi', 'North Maluku')]; east->west [('North Maluku', 'Gorontalo'), ('North Maluku', 'North Sulawesi')]
+       all simple cycles: {'count': 576397, 'longest': 30}
+D_cor: symmetric = True, Hamiltonian = True, disjoint 2-cycles = 19, mean out-degree = 36.9
+
+Table 1
+W           a       b     rho   t_dir   t_ind      pattern range        all-W range   1+rho
+geo    0.1379  0.2331  0.2704   1.180   0.410   [0.3431, 0.4298]   [0.3383, 0.4298]  1.2704
+cor    0.1131  0.4118  0.4643   1.141   0.964   [0.6674, 0.9772]   [0.6674, 0.9772]  1.4643
+
+Estimated spillover ratio cor/geo = 2.352
+Range ratios with fixed coefficients: geo all W 1.2704, geo pattern 1.2525, cor 1.4643
+geo: rho^30 = 9.1e-18; pattern min t_dir 1.159892 vs all-W min 1.159892
+geo: pattern max t_dir in [1.24654310, 1.24654310] (1249 cycles of length <= 12) vs all-W max 1.2514
+
+GSTAR, W_geo: max|a_i|+|b_i| = 0.674 (W_cor: 0.766); r_i in [-0.175, 0.575], 2 negative
+   estimated t_dir = 1.1838; mean d_i = 1.1617
+   Theorem 1.1 over Sigma_D_geo (17410 cycles of length <= 16):
+   min t_dir in [1.15366, 1.15374], max t_dir in [1.28617, 1.28618]
