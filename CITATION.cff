@@ -9,6 +9,7 @@ authors:
     affiliation: "Graduate School of Science and Engineering, Ehime University"
     orcid: "https://orcid.org/0009-0005-8802-9629"
 version: 1.0.1
+doi: 10.5281/zenodo.23565234
 date-released: 2026-10-22
 license: MIT
 repository-code: "https://github.com/noeroelama/gstar-extremal-effects"
