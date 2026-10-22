@@ -4,6 +4,8 @@ Code and data for the numerical example (Section 5) of the paper
 
 > A. Nurwahid, *Extremal direct and spillover effects for stochastic weight matrices with a prescribed pattern* (submitted).
 
+Author: Arif Nurwahid, Graduate School of Science and Engineering, Ehime University [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--8802--9629-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0005-8802-9629)
+
 The example uses monthly rainfall in the 38 provinces of Indonesia. It fits a space-time autoregressive model (STAR and GSTAR(1;1)) under two spatial weight matrices, a geographic one ($W_{\mathrm{geo}}$, four nearest provinces) and a correlation-based one ($W_{\mathrm{cor}}$), and computes the average direct and spillover effects of the long-run multiplier $M=(I-\Phi_0-\Phi_1W)^{-1}$. It then computes how far these effects can move when $W$ changes while the estimated coefficients stay fixed, using the bounds of the paper. The script reproduces Table 1 and every number in Section 5.
 
 ## Contents
