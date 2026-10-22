@@ -1,6 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite it as below."
-title: "gstar-extremal-effects: code and data for 'Extremal direct and spillover effects for stochastic weight matrices with a prescribed pattern'"
+type: software
+title: "gstar-extremal-effects: code and data for the numerical example in 'Extremal direct and spillover effects for stochastic weight matrices with a prescribed pattern'"
+abstract: "Code and data that reproduce the numerical example (Section 5) of the paper: STAR and GSTAR(1;1) models for monthly rainfall in 38 Indonesian provinces under two spatial weight matrices, and the range of the average direct and spillover effects over weight matrices with the coefficients fixed."
 authors:
   - family-names: Nurwahid
     given-names: Arif
@@ -9,3 +11,11 @@ version: 1.0.0
 date-released: 2026-10-22
 license: MIT
 repository-code: "https://github.com/noeroelama/gstar-extremal-effects"
+keywords:
+  - stochastic matrix
+  - spatial weight matrix
+  - spillover effect
+  - GSTAR model
+  - rainfall
+  - CHIRPS
+  - Indonesia
