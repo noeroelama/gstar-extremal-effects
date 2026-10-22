@@ -1,7 +1,7 @@
 {
-  "title": "gstar-extremal-effects: code and data for the numerical example in \"Extremal direct and spillover effects for stochastic weight matrices with a prescribed pattern\"",
+  "title": "gstar-extremal-effects: code and data for the numerical example in \"Disjoint cycles and extremal traces of resolvents of stochastic matrices\"",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "access_right": "open",
   "license": "mit",
   "language": "eng",
@@ -12,7 +12,7 @@
       "orcid": "0009-0005-8802-9629"
     }
   ],
-  "description": "<p>Code and data for the numerical example (Section 5) of the paper <em>Extremal direct and spillover effects for stochastic weight matrices with a prescribed pattern</em> by A. Nurwahid, submitted to <em>Linear Algebra and its Applications</em>.</p><p>The example uses monthly rainfall in the 38 provinces of Indonesia from January 1985 to April 2025. Each value is the mean of the CHIRPS v2.0 pixels inside a province polygon. The script fits a homogeneous STAR model and a GSTAR(1;1) model under two spatial weight matrices, one geographic (four nearest provinces) and one based on correlations, and computes the average direct and spillover effects of the long-run multiplier (I &minus; &Phi;<sub>0</sub> &minus; &Phi;<sub>1</sub>W)<sup>&minus;1</sup>. It then computes how far these effects can move when W changes while the estimated coefficients stay fixed, using the bounds proved in the paper. Running <code>python scripts/example_provinces.py</code> reproduces Table 1 and every number in Section 5 of the paper in under one minute.</p><p>Contents: <code>data/</code> (rainfall series, province centroids, and a description of sources and processing), <code>scripts/</code> (Python code), <code>results/</code> (reference output).</p><p>The code is released under the MIT License. The rainfall series are derived from CHIRPS v2.0 (Funk et al., 2015), which is in the public domain, and are released under CC BY 4.0. See <code>data/README.md</code> for details.</p>",
+  "description": "<p>Code and data for the numerical example (Section 5) of the paper <em>Disjoint cycles and extremal traces of resolvents of stochastic matrices</em> by A. Nurwahid, submitted to <em>Linear Algebra and its Applications</em>.</p><p>The example uses monthly rainfall in the 38 provinces of Indonesia from January 1985 to April 2025. Each value is the mean of the CHIRPS v2.0 pixels inside a province polygon. The script fits a homogeneous STAR model and a GSTAR(1;1) model under two spatial weight matrices, one geographic (four nearest provinces) and one based on correlations, and computes the average direct and spillover effects of the long-run multiplier (I &minus; &Phi;<sub>0</sub> &minus; &Phi;<sub>1</sub>W)<sup>&minus;1</sup>. It then computes how far these effects can move when W changes while the estimated coefficients stay fixed, using the bounds proved in the paper. Running <code>python scripts/example_provinces.py</code> reproduces Table 1 and every number in Section 5 of the paper in under one minute.</p><p>Contents: <code>data/</code> (rainfall series, province centroids, and a description of sources and processing), <code>scripts/</code> (Python code), <code>results/</code> (reference output).</p><p>The code is released under the MIT License. The rainfall series are derived from CHIRPS v2.0 (Funk et al., 2015), which is in the public domain, and are released under CC BY 4.0. See <code>data/README.md</code> for details.</p>",
   "keywords": [
     "stochastic matrix",
     "spatial weight matrix",

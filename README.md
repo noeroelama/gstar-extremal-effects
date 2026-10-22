@@ -1,10 +1,8 @@
 # gstar-extremal-effects
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23565234.svg)](https://doi.org/10.5281/zenodo.23565234)
-
 Code and data for the numerical example (Section 5) of the paper
 
-> A. Nurwahid, *Extremal direct and spillover effects for stochastic weight matrices with a prescribed pattern* (submitted).
+> A. Nurwahid, *Disjoint cycles and extremal traces of resolvents of stochastic matrices* (submitted).
 
 Author: Arif Nurwahid, Graduate School of Science and Engineering, Ehime University [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--8802--9629-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0005-8802-9629)
 
@@ -61,7 +59,7 @@ The rainfall series are areal means of CHIRPS v2.0 (Funk et al., 2015) over prov
 
 ## Citation
 
-If you use this code or data, please cite the archived version, Nurwahid, A. (2026), *gstar-extremal-effects* (v1.0.0), Zenodo, https://doi.org/10.5281/zenodo.23565234, together with the paper (details will be added after publication) and the data sources listed in `data/README.md`. A `CITATION.cff` file is included.
+If you use this code or data, please cite the version archived at Zenodo together with the paper (details will be added after publication) and the data sources listed in `data/README.md`. A `CITATION.cff` file is included.
 
 ## License
 
